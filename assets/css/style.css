@@ -1,0 +1,16 @@
+:root{
+    --barely-grey: #f0f0f0;
+    --ubuntu: 'Ubuntu', sans-serif;
+}
+
+body{
+    background-color: var(--barely-grey);
+    font-family: var(--ubuntu);
+}
+
+header{
+    color: var(--barely-grey);
+    background: linear-gradient(to right, #6699ff 0%, #6600cc 100%);
+    display: flex;
+    justify-content: center;
+}
